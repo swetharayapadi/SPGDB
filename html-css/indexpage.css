@@ -1,0 +1,105 @@
+﻿body {
+	background: url('Background_image.jpg') repeat;
+	width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+    position: obsolute;
+}
+
+img.logo {
+	width: 100px;
+	height: 80px;
+}
+
+img.logo_vit {
+	width: 80px;
+	height: 80px;
+}
+
+p.head {
+	float: right;
+	display: inline;
+	margin-top: 10px;
+}
+
+div.head {
+	color: white;
+	font: 30px verdana;
+	background:
+        linear-gradient(-135deg, rgb(102,0,51) 5px, transparent 0) 0 5px,
+        linear-gradient(135deg, rgb(102,0,51) 5px, white 0) 0 5px;
+    background-color: rgb(102,0,51);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 10px;
+    margin-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: -10px;
+    padding: 10px;
+}
+
+
+p.content {
+	color: rgb(102,0,51);
+	font: 16px verdana;
+	text-align: center;
+	margin-top: 10px;
+}
+
+p.address {
+	color: rgb(102,0,51);
+	font: 16px verdana;
+	margin-top: 10px;
+	line-height: 24px;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	height: 30px;
+	width: 60px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 10px red;
+	margin-right: auto;
+	margin-left: auto;
+	font: 16px verdana;
+	color: rgb(102,0,51); 
+	padding: 5px;
+}
+
+input:hover {
+	height: 30px;
+	width: 60px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 10px red;
+	margin-right: auto;
+	margin-left: auto;
+	font: 16px verdana;
+	color: rgb(102,0,51); 
+	padding: 5px;
+	background-color: rgb(204,204,0);
+}
+
+img.ent {
+	height: 70px;
+	width: 150px;
+}
+
+div.ent {
+	height: 70px;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+hr {
+	height: 3px;
+	color: white;
+}
+
